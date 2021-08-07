@@ -4,6 +4,7 @@ import SiteBanner from '../components/siteBanner'
 import HighLight from '../components/highlight'
 // import styles from '../styles/Home.module.scss'
 import BlogHighLight from '../components/blogHighlight'
+import Footer from '../components/footer'
 
 export default function Home({ posts }) {
 
@@ -22,11 +23,13 @@ export default function Home({ posts }) {
       <main className="container">
         
       <HighLight />
+
+      <h3 className="mt-4">Highlights</h3>
       <BlogHighLight posts={posts} />
       </main>
 
-      <footer>
-
+      <footer className="container">
+        <Footer />
       </footer>
     </div>
   )
