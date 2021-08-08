@@ -8,8 +8,9 @@ export const HighLight = () => {
             </div>
             <div className="col p-3">
             <ul className="list-group">
-                <li className="list-group-item text-sm">Coder</li>
+                <li className="list-group-item text-sm">Full-Stack App Developer</li>
                 <li className="list-group-item text-sm">Investor</li>
+                <li className="list-group-item text-sm">Graphic Designer</li>
                 <li className="list-group-item">Audio/Video Producer</li>
                 <li className="list-group-item">Writer</li>
                 <li className="list-group-item">Entrepreneur</li>

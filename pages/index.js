@@ -3,8 +3,9 @@ import Nav from '../components/nav'
 import SiteBanner from '../components/siteBanner'
 import HighLight from '../components/highlight'
 // import styles from '../styles/Home.module.scss'
-import BlogHighLight from '../components/blogHighlight'
+
 import Footer from '../components/footer'
+import HighlightsSection from '../components/highlightsSection'
 
 export default function Home({ posts }) {
 
@@ -12,20 +13,15 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Shawn Bahramy</title>
-        <meta name="description" content="money, tech, tools, creative short films" />
+        <meta name="description" content="portfolio, money, tech, blog, tools, creative short films" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Nav />
-      {/* <SiteBanner /> */}
-      
 
       <main className="container">
-        
-      <HighLight />
-
-      <h3 className="mt-4">Highlights</h3>
-      <BlogHighLight posts={posts} />
+        <HighLight />
+        <HighlightsSection posts={posts} />
       </main>
 
       <footer className="container">

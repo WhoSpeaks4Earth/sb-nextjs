@@ -31,3 +31,4 @@ export const BlogHighLight = ({ posts }) => {
 }
 
 export default BlogHighLight
+
