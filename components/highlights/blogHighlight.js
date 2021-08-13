@@ -6,10 +6,13 @@ export const BlogHighLight = ({ posts }) => {
       <div className="container lighter-bg text-dark p-3">
         
         <div className="row">
-          <h4 className="blog mb-3">Blog</h4>
+        <div className="col-12 blog d-flex w-100 justify-content-between">
+                    <h4 className="blog mb-3">Blog</h4>
+                    <a href="#" className="link-secondary">View Blog</a>
+                </div>
         {posts && posts.map((post) => (
-          <div key={post.slug} className="col-4">
-            <div className="card">
+          <div key={post.slug} className="col-sm-6 col-lg-4">
+            <div className="card mb-3">
               <Image src="/images/ph.jpeg" width={100} height={100} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">{ post.title }</h5>

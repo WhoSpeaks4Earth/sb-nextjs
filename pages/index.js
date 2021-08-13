@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Nav from '../components/nav'
 import SiteBanner from '../components/siteBanner'
-import HighLight from '../components/highlight'
 // import styles from '../styles/Home.module.scss'
 
 import Footer from '../components/footer'
-import HighlightsSection from '../components/highlightsSection'
+import HighlightsSection from '../components/highlights/highlightsSection'
 
 export default function Home({ posts }) {
 
@@ -20,7 +19,7 @@ export default function Home({ posts }) {
       <Nav />
 
       <main className="container">
-        <HighLight />
+        <SiteBanner />
         <HighlightsSection posts={posts} />
       </main>
 
