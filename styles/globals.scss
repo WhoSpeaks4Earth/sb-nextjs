@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #232931;
+  background-color: black; //#232931;
   color: white;
 }
 
@@ -67,4 +67,10 @@ h3 {
 
 h4 {
   color: $medium;
+}
+
+.site-banner {
+  background-image: url("../public/images/sb_banner.jpg");
+  background-size: cover;
+  background: linear-gradient(to right, $blue, $medium, black);
 }
