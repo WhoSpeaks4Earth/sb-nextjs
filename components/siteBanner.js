@@ -10,7 +10,7 @@ export const SiteBanner = () => {
                     <div className="carousel-content">
                     <h2>Full-Stack Web Application Developer</h2>
                     <p>Over { new Date().getFullYear() - 2012 } years of professional experience from user experience (UX) to servers, containers, databases and everything in between. I believe in creating beautifully functional applications that are of high value to its users.</p>
-                    <button className="btn btn-primary">View my GitHub</button>
+                    <a href="https://github.com/WhoSpeaks4Earth" target="_blank" className="btn btn-primary">View my GitHub</a>
                     </div>
                     
                 </div>
