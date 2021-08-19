@@ -3,7 +3,7 @@ import Image from 'next/image'
 export const SiteBanner = () => {
     return (
         <div className="container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="12000">
             <div class="carousel-inner">
                 <div class="carousel-item active px-4">
                 <div className="carousel-card coder">

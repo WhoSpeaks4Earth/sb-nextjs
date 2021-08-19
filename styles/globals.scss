@@ -123,3 +123,30 @@ h4 {
   left: 0px;
   background-color: rgba(0,0,0,0.6);
 }
+
+
+
+.about-container {
+  background-image: url("../public/images/sb_banner.JPG");
+  background-size: contain;
+  height: 100vh;
+
+  & > p {
+    background: black;
+    padding: 20px;
+  }
+}
+
+.resources-container {
+  background: #262626;
+
+  h4 {
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+  }
+
+  th, td {
+    color: white;
+  }
+}
