@@ -1,7 +1,7 @@
 
 export const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img src="/images/sb-logo-new.png" alt="" width="60" height="50" />

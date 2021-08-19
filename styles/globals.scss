@@ -72,5 +72,54 @@ h4 {
 .site-banner {
   background-image: url("../public/images/sb_banner.jpg");
   background-size: cover;
-  background: linear-gradient(to right, $blue, $medium, black);
+  background: linear-gradient(to left, $blue, $medium, black);
+}
+
+.carousel-card {
+  text-align: center;
+  padding: 10px;
+  height: 300px;
+  position: relative; 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  & > .carousel-content {
+    position: relative;
+  }
+
+  &.coder {
+      background-image: url("../public/images/coder-bg.jpg");
+      background-size: cover;
+  }
+
+  &.competencies {
+    background-image: url("../public/images/studio.jpg");
+    background-size: cover;
+}
+
+  &.philanthropy {
+    background-image: url("../public/images/sprout.jpg");
+    background-size: contain;
+
+    li {
+      font-size: .78rem;
+    }
+  }
+}
+
+.carousel-card::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.6);
 }

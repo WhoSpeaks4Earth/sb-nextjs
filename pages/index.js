@@ -14,6 +14,7 @@ export default function Home({ posts }) {
         <title>Shawn Bahramy</title>
         <meta name="description" content="portfolio, money, tech, blog, tools, creative short films" />
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       </Head>
 
       <Nav />
@@ -35,10 +36,10 @@ export async function getStaticProps() {
   console.log('server side')
   // get posts from our api
 
-  const res = await fetch('http://localhost:1337/posts')
-  const posts = await res.json()
+  // const res = await fetch('http://localhost:1337/posts')
+  const posts = [] // await res.json()
 
-  console.log(posts)
+  // console.log(posts)
 
   return {
     props: { posts }
