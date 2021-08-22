@@ -1,5 +1,7 @@
 import Image from 'next/image'
+import BoxArrowRightIcon from '../icons/boxArrowRight'
 import DownloadIcon from '../icons/download'
+import Templates from '../templates'
 
 const TopHighlights = () => {
     return (
@@ -34,42 +36,7 @@ const TopHighlights = () => {
 
           <div className="col-sm-12 col-lg-6">
           <h4 className="blog mb-3">Templates</h4>
-            <table className="table table-sm">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Price</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Income Statement</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                    <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Balance Sheet</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                  <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Amortization Sheet</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                  <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <Templates />
           </div>
         </div>
       </div>

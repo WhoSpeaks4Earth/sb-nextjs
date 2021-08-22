@@ -1,5 +1,6 @@
 import Nav from '../components/nav'
 import DownloadIcon from '../components/icons/download'
+import Templates from '../components/templates'
 
 export const Resources = () => {
     return (
@@ -17,65 +18,35 @@ export const Resources = () => {
                 </div>
 
                 <div className="col-sm-12 col-lg-6">
-                    <h4>Templates</h4>
+                    <h4>Financial Templates</h4>
 
-                    <table className="table table-sm">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Price</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Income Statement</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                    <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Balance Sheet</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                  <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Amortization Sheet</td>
-                  <td><img src="/images/google-sheets-logo.png" width="15px" class="figure-img img-fluid rounded" alt="..." /> Financial</td>
-                  <td>Free</td>
-                  <td>
-                  <a href="#" className="link-secondary"><DownloadIcon /></a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    <Templates />
                 </div>
 
                 <div className="col-12 py-3 mt-2">
                     <h4>Investing Tools</h4>
                     <div className="row">
-                        <div className="col-sm-12 col-md-4 mt-4">
+                        <div className="col-sm-12 col-md-4 my-4 text-center">
                             <img src="/images/aspiration-logo.png" alt="Aspiration Banking" width="200px" />
                         </div>
-                        <div className="col-sm-12 col-md-8 mt-4">
-                            Aspiration is a Certified Benefit Coroporation (B-Corp) pledging to do better banking by not investing in fossil fuels. If you want to invest in cleaner money and a cleaner environment, while being a part of reforesting efforts, join now.
+                        <div className="col-sm-12 col-md-8 mt-4 text-center">
+                          <p>
+                            Aspiration is a Certified Benefit Coroporation (B-Corp) pledging to do better banking by not investing in fossil fuels. They charge a "Pay What Is Fair" banking fee where you can choose what fee to pay. Apsiration also offers reforesting efforts built into transaction activity. If you want to invest in cleaner money and a cleaner environment consider joining by using the link below where we can both get some perks :)
+                          </p>
+                            
+                          <button className="btn btn-primary">Join Aspiration</button>
                         </div>
 
-                        <div className="col-sm-12 col-md-4 mt-4">
+                        <div className="col-sm-12 col-md-4 my-4 text-center">
                             <img src="/images/robinhood.png" alt="Robinhood Investing" width="200px" />
                         </div>
                         <div className="col-sm-12 col-md-8 mt-4">
-                            Robinhood makes investing easy. Almost too easy. Their user interface is one of the best I've seen, and bonus points for default dark modes. Simple yet effective, Robinhood gives you a lot of power in simple interfaces. I'm currently growing a small portfolio in Robinhood.
+                          <p>Robinhood makes investing easy. Almost too easy. Their user interface is one of the best I've seen, and bonus points for default dark modes. Simple yet effective, Robinhood gives you a lot of power in simple interfaces. I'm currently growing a small portfolio in Robinhood.</p>
+                          <a href="https://join.robinhood.com/shawnb-344133c" className="btn btn-primary">Join Robinhood</a>
                         </div>
 
 
-                        <div className="col-sm-12 col-md-4 mt-4">
+                        <div className="col-sm-12 col-md-4 my-4 text-center">
                             <img src="/images/webull-logo.jpg" alt="Webull" width="200px" />
                         </div>
                         <div className="col-sm-12 col-md-8 mt-4">

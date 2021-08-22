@@ -23,9 +23,9 @@ export const SiteBanner = () => {
                             <ul class="list-group">
                             <li class="list-group-item">Investing</li>
                             <li class="list-group-item">Music Production</li>
-                            <li class="list-group-item">Film Production</li>
                             <li class="list-group-item">Writing</li>
                             <li class="list-group-item">Graphic Design</li>
+                            <li class="list-group-item">Film Production</li>
                             </ul>
                         </p>
                         </div>
@@ -36,15 +36,16 @@ export const SiteBanner = () => {
                     <div className="carousel-content">
                         <h2>❤ Where I Donate</h2>
                         <p>
-                            <ul class="list-group text-sm">
-                                <li class="list-group-item">Planetary Society</li>
-                                <li class="list-group-item">Greenpeace</li>
-                                <li class="list-group-item">GPB/NPR</li>
-                                <li class="list-group-item">Wikipedia</li>
-                                <li class="list-group-item">Children's International</li>
-                                <li class="list-group-item">Sierra Club</li>
+                            <ul class="list-group dark-bg">
+                                <li class="list-group-item"><a href="https://www.planetary.org/" target="_blank" className="link-primary">Planetary Society</a></li>
+                                <li class="list-group-item"><a href="https://www.greenpeace.org/" target="_blank" className="link-primary">Greenpeace</a></li>
+                                <li class="list-group-item"><a href="https://www.gpb.org/" target="_blank" className="link-primary">GPB</a> / <a href="https://www.npr.org/" target="_blank" className="link-primary">NPR</a></li>
+                                <li class="list-group-item"><a href="https://wikimediafoundation.org/support/" target="_blank" className="link-primary">Wikipedia</a></li>
+                                <li class="list-group-item"><a href="https://www.children.org/" target="_blank" className="link-primary">Children's International</a></li>
+                                <li class="list-group-item"><a href="https://www.sierraclub.org/" target="_blank" className="link-primary">Sierra Club</a></li>
                             </ul>
                         </p>
+                        <small className="mb-4">Note: I do not receive any money from these companies/organizations</small>
                         </div>
                     </div>
                 </div>
